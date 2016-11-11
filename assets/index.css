@@ -17,7 +17,7 @@ html,body{
   flex-direction: column;
   justify-content: space-between;
   height: 15rem;
-  background-image: url("/Users/sampellegrene/projects/vita-site/assets/images/bar.jpg");
+  background-image: url("assets/images/bar.jpg");
   background-size: cover;
 }
 
@@ -44,4 +44,29 @@ html,body{
   font-family: sura;
   line-height: 2rem;
   display: inline-block;
+
+header {
+  background-image: url('assets/images/header.jpg');
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+}
+
+logo {
+  margin-top: 15px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  background-color: #FFF;
+  border-radius: 100%;
+}
+
+logo > p {
+  font-family: 'Ruslan Display', cursive;
+  font-size: 18px;
+  color: #0D26CD;
 }
