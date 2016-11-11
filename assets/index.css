@@ -1,0 +1,47 @@
+html,body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section-dividers{
+  font-size: 24px;
+  color: white;
+  background-color: #1D2129;
+  font-family: sura;
+  text-align: center;
+}
+
+.image-holder{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 15rem;
+  background-image: url("/Users/sampellegrene/projects/vita-site/assets/images/bar.jpg");
+  background-size: cover;
+}
+
+.phone-address-mobile-holder{
+  display: flex;
+  justify-content: center;
+  width: 20rem;
+  height: 15rem;
+  margin-left: 5rem;
+}
+
+.phone-address-mobile-text1{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: sura;
+  line-height: 2rem;
+  display: inline-block;
+}
+.phone-address-mobile-text2{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: sura;
+  line-height: 2rem;
+  display: inline-block;
+}
