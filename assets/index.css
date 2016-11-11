@@ -1,0 +1,31 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url('/Users/andrew_s_lentz/Projects/vita-site/assets/images/header.jpg');
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+}
+
+logo {
+  margin-top: 15px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  background-color: #FFF;
+  border-radius: 100%;
+}
+
+logo > p {
+  font-family: 'Ruslan Display', cursive;
+  font-size: 18px;
+  color: #0D26CD;
+}
