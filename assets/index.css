@@ -139,7 +139,8 @@ header {
   color: white;
   font-family: 'sura';
   text-align: center;
-  margin: 0 auto;
+  margin: -10px auto 0 auto;
+  background-color: black;
 }
 
 .bottom-left img{
@@ -151,12 +152,13 @@ header {
   color: white;
   font-family: 'sura';
   text-align: center;
-  margin: 0 auto;
+  margin: -10px auto 0 auto;
+  background-color: black;
 }
 
 .upper-right img{
   width: 10rem;
-  height: 4rem;
+  height: 3.5rem;
 }
 
 .upper-right p{
@@ -164,11 +166,12 @@ header {
   font-family: 'sura';
   text-align: center;
   margin: 0 auto;
+  background-color: black;
 }
 
 .upper-left img{
   width: 10rem;
-  height: 4rem;
+  height: 3.5rem;
 }
 
 .upper-left p{
@@ -176,6 +179,7 @@ header {
   font-family: 'sura';
   text-align: center;
   margin: 0 auto;
+  background-color: black;
 }
 
 nav {
@@ -192,5 +196,12 @@ nav > a {
   font-size: 18px;
   margin-top: 20px;
   text-decoration: none;
+}
 
+li.upper-left, li.upper-right {
+  margin-top: 10px;
+}
+
+li.bottom-left, li.bottom-right {
+  margin-bottom: 10px;
 }
