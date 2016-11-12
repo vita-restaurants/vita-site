@@ -4,53 +4,15 @@ html,body{
   box-sizing: border-box;
 }
 
-.section-dividers{
-  font-size: 24px;
-  color: white;
-  background-color: #1D2129;
-  font-family: sura;
-  text-align: center;
-}
-
-.image-holder{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 15rem;
-  background-image: url("assets/images/bar.jpg");
-  background-size: cover;
-}
-
-.phone-address-mobile-holder{
-  display: flex;
-  justify-content: center;
-  width: 20rem;
-  height: 15rem;
-  margin-left: 5rem;
-}
-
-.phone-address-mobile-text1{
-  text-align: center;
-  color: white;
-  font-size: 18px;
-  font-family: sura;
-  line-height: 2rem;
-  display: inline-block;
-}
-.phone-address-mobile-text2{
-  text-align: center;
-  color: white;
-  font-size: 18px;
-  font-family: sura;
-  line-height: 2rem;
-  display: inline-block;
+/* Begin the nav/header section mobile */
 
 header {
-  background-image: url('assets/images/header.jpg');
-  width: 100%;
-  height: 200px;
-  background-size: cover;
+background-image: url('../assets/images/header.jpg');
+width: 100%;
+height: 200px;
+background-size: cover;
 }
+
 
 logo {
   margin-top: 15px;
@@ -69,4 +31,137 @@ logo > p {
   font-family: 'Ruslan Display', cursive;
   font-size: 18px;
   color: #0D26CD;
+}
+
+/* The section dividers mobile */
+
+.section-dividers{
+  font-size: 24px;
+  color: white;
+  background-color: #1D2129;
+  font-family: sura;
+  text-align: center;
+}
+
+/* Begin The Club section mobile */
+
+.image-holder1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 15rem;
+  background-image: url('../assets/images/bar.jpg');
+  background-size: cover;
+}
+
+.phone-address-mobile-holder{
+  display: flex;
+  justify-content: center;
+  width: 20rem;
+  height: 15rem;
+  margin-left: 5rem;
+}
+
+.phone-address-mobile-text1{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family:'sura';
+  line-height: 2rem;
+  display: inline-block;
+}
+.phone-address-mobile-text2{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: sura;
+  line-height: 2rem;
+  display: inline-block;
+}
+
+/* Begin Featured Acts mobile section */
+
+.image-holder2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 15rem;
+  background-image: url('../assets/images/djconcert.jpg');
+  background-size: cover;
+}
+
+.featured-holder1{
+  /*border: 2px solid red;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0;
+  margin-top: 1rem;
+  height: 7rem;
+  padding: 0;
+
+}
+
+.featured-holder2{
+  /*border: 2px solid green;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+.bottom-right img{
+  width: 10rem;
+  height: 4rem;
+}
+
+.bottom-right p{
+  color: white;
+  font-family: 'sura';
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bottom-left img{
+  width: 10rem;
+  height: 4rem;
+}
+
+.bottom-left p{
+  color: white;
+  font-family: 'sura';
+  text-align: center;
+  margin: 0 auto;
+}
+
+.upper-right img{
+  width: 10rem;
+  height: 4rem;
+}
+
+.upper-right p{
+  color: white;
+  font-family: 'sura';
+  text-align: center;
+  margin: 0 auto;
+}
+
+.upper-left img{
+  width: 10rem;
+  height: 4rem;
+}
+
+.upper-left p{
+  color: white;
+  font-family: 'sura';
+  text-align: center;
+  margin: 0 auto;
 }
