@@ -91,41 +91,77 @@ logo > p {
 }
 
 .featured-holder1{
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-bottom: 0;
+  margin-top: 1rem;
+  height: 7rem;
   padding: 0;
 
 }
+
 .featured-holder2{
-  border: 2px solid green;
+  /*border: 2px solid green;*/
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-bottom: 0;
+  margin-top: 0;
   padding: 0;
-
 }
 
 .bottom-right img{
   width: 10rem;
-  height: 5rem;
+  height: 4rem;
 }
+
+.bottom-right p{
+  color: white;
+  font-family: 'sura';
+  text-align: center;
+  margin: 0 auto;
+}
+
 .bottom-left img{
   width: 10rem;
-  height: 5rem;
+  height: 4rem;
 }
+
+.bottom-left p{
+  color: white;
+  font-family: 'sura';
+  text-align: center;
+  margin: 0 auto;
+}
+
 .upper-right img{
   width: 10rem;
-  height: 5rem;
+  height: 4rem;
 }
+
+.upper-right p{
+  color: white;
+  font-family: 'sura';
+  text-align: center;
+  margin: 0 auto;
+}
+
 .upper-left img{
   width: 10rem;
-  height: 5rem;
+  height: 4rem;
+}
+
+.upper-left p{
+  color: white;
+  font-family: 'sura';
+  text-align: center;
+  margin: 0 auto;
 }
