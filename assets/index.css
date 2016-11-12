@@ -5,11 +5,14 @@ html,body{
 }
 
 .section-dividers{
+  display: flex;
+  align-items: center;
   font-size: 24px;
+  height: 35px;
   color: white;
   background-color: #1D2129;
   font-family: sura;
-  text-align: center;
+  justify-content: center;
 }
 
 .image-holder{
@@ -17,7 +20,7 @@ html,body{
   flex-direction: column;
   justify-content: space-between;
   height: 15rem;
-  background-image: url("assets/images/bar.jpg");
+  background-image: url("../assets/images/bar.jpg");
   background-size: cover;
 }
 
@@ -33,20 +36,24 @@ html,body{
   text-align: center;
   color: white;
   font-size: 18px;
-  font-family: sura;
+  font-family: 'Noto Sans', sans-serif;
   line-height: 2rem;
   display: inline-block;
+  margin-top: 15px;
 }
 .phone-address-mobile-text2{
   text-align: center;
   color: white;
   font-size: 18px;
-  font-family: sura;
+  font-family: 'Noto Sans', sans-serif;
   line-height: 2rem;
   display: inline-block;
+  margin-bottom: 15px;
+}
 
 header {
-  background-image: url('assets/images/header.jpg');
+  display: flex;
+  background-image: url('../assets/images/header.jpg');
   width: 100%;
   height: 200px;
   background-size: cover;
@@ -69,4 +76,21 @@ logo > p {
   font-family: 'Ruslan Display', cursive;
   font-size: 18px;
   color: #0D26CD;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  margin-left: 40px;
+}
+
+nav > a {
+  display: inline-block;
+  color: white;
+  font-family: 'Sura', serif;
+  font-size: 18px;
+  margin-top: 20px;
+  text-decoration: none;
+
 }
