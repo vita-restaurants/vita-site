@@ -205,3 +205,31 @@ li.upper-left, li.upper-right {
 li.bottom-left, li.bottom-right {
   margin-bottom: 10px;
 }
+
+.image-holder3{
+  display: flex;
+  justify-content: center;
+  height: 15rem;
+  background-image: url('../assets/images/rave.jpg');
+  background-size: cover;
+}
+
+.overlay{
+  background-color: rgba(0, 0, 0, 0.65);
+  height: 12rem;
+  width: 20rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+
+}
+
+.specials-list{
+  width:12rem;
+  color: white;
+  text-align: center;
+  list-style: none;
+  line-height: 3rem;
+  margin-left:1.5rem;
+  margin-top: 0;
+  font-family: 'noto sans';
+}
