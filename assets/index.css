@@ -257,27 +257,35 @@ div.prices {
 .image-holder3{
   display: flex;
   justify-content: center;
-  height: 15rem;
+  align-items: center;
+  height: 532px;
   background-image: url('../assets/images/rave.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 .overlay{
   background-color: rgba(0, 0, 0, 0.65);
   height: 12rem;
-  width: 20rem;
-  margin-top: 2rem;
+  width: 70%;
   border-radius: 5px;
-
+  height: 70%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
-.specials-list {
+.special-item {
   width:12rem;
   color: white;
   text-align: center;
   list-style: none;
   line-height: 3rem;
-  margin-left:1.5rem;
-  margin-top: 0;
   font-family: 'noto sans';
+}
+
+div.overlay:first-of-type p {
+  line-height: 1.5;
 }
