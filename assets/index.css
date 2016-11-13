@@ -25,6 +25,10 @@ header.nav {
   height: 90px;
 }
 
+header > a {
+  text-decoration: none;
+}
+
 
 logo {
   margin-top: 10px;
