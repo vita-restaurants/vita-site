@@ -243,7 +243,7 @@ div.menu {
 div.items > p, div.prices > p {
   margin: .5rem 0;
   font-family: 'Noto Sans', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 div.items {
@@ -252,4 +252,40 @@ div.items {
 
 div.prices {
   color: #c4c4c4;
+}
+
+.image-holder3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 532px;
+  background-image: url('../assets/images/rave.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay{
+  background-color: rgba(0, 0, 0, 0.65);
+  height: 12rem;
+  width: 70%;
+  border-radius: 5px;
+  height: 70%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.special-item {
+  width:12rem;
+  color: white;
+  text-align: center;
+  list-style: none;
+  line-height: 3rem;
+  font-family: 'noto sans';
+}
+
+div.overlay:first-of-type p {
+  line-height: 1.5;
 }
