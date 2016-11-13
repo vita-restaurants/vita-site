@@ -10,13 +10,24 @@ header {
 background-image: url('../assets/images/header.jpg');
 display: flex;
 width: 100%;
-height: 200px;
 background-size: cover;
+position: fixed;
+background-position: top;
+}
+
+header.landing {
+  z-index: -1;
+  height: 200px;
+}
+
+header.nav {
+  z-index: 1;
+  height: 90px;
 }
 
 
 logo {
-  margin-top: 15px;
+  margin-top: 10px;
   margin-left: 15px;
   display: flex;
   align-items: center;
@@ -32,6 +43,26 @@ logo > p {
   font-family: 'Ruslan Display', cursive;
   font-size: 18px;
   color: #0D26CD;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+}
+
+nav > a {
+  display: inline-block;
+  color: white;
+  font-family: 'Sura', serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+
+div.main-container {
+  padding-top: 200px;
 }
 
 /* The section dividers mobile */
@@ -176,28 +207,18 @@ logo > p {
   background-color: black;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  width: 75%;
-  margin-left: 40px;
-}
-
-nav > a {
-  display: inline-block;
-  color: white;
-  font-family: 'Sura', serif;
-  font-size: 18px;
-  margin-top: 20px;
-  text-decoration: none;
-}
-
 li.upper-left, li.upper-right {
   margin-top: 10px;
 }
 
 li.bottom-left, li.bottom-right {
   margin-bottom: 10px;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -90px;
 }
 
 div.food-image {
