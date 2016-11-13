@@ -261,7 +261,7 @@ div.prices {
   height: 532px;
   background-image: url('../assets/images/rave.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: right;
 }
 
 .overlay{
