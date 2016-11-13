@@ -206,6 +206,54 @@ li.bottom-left, li.bottom-right {
   margin-bottom: 10px;
 }
 
+div.food-image {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('../assets/images/kitchen.jpg');
+  background-repeat: no-repeat;
+  height: 532px;
+  background-size: cover;
+  background-position: right;
+}
+
+div.menu-box {
+  display: flex;
+  flex-flow: column;
+  background-color: rgba(0, 0, 0, 0.65);
+  width: 90%;
+  align-items: center;
+}
+
+h4.title {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 28px;
+  color: #F2f2f2;
+  margin-top: .5rem;
+  margin-bottom: 0;
+}
+
+div.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+div.items > p, div.prices > p {
+  margin: .5rem 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+}
+
+div.items {
+  color: #f2f2f2;
+}
+
+div.prices {
+  color: #c4c4c4;
+}
+
 .image-holder3{
   display: flex;
   justify-content: center;
@@ -223,7 +271,7 @@ li.bottom-left, li.bottom-right {
 
 }
 
-.specials-list{
+.specials-list {
   width:12rem;
   color: white;
   text-align: center;
