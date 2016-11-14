@@ -88,7 +88,7 @@ div.main-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 15rem;
+  /*height: 15rem;*/
   background-image: url("../assets/images/bar.jpg");
   background-size: cover;
 }
@@ -123,10 +123,11 @@ div.main-container {
 /* Begin Featured Acts mobile section */
 
 .image-holder2{
+  /*border: 2px solid yellow;*/
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
-  height: 15rem;
+  /*height: 15rem;*/
   background-image: url('../assets/images/djconcert.jpg');
   background-size: cover;
 }
@@ -134,14 +135,11 @@ div.main-container {
 .featured-holder1{
   /*border: 2px solid red;*/
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-flow: column;
   list-style: none;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 0;
-  margin-top: 1rem;
-  height: 7rem;
   padding: 0;
 
 }
@@ -149,19 +147,22 @@ div.main-container {
 .featured-holder2{
   /*border: 2px solid green;*/
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-flow: column;
   list-style: none;
-  margin-left: 1rem;
   margin-right: 1rem;
+  margin-left: 1rem;
   margin-bottom: 0;
-  margin-top: 0;
   padding: 0;
+}
+
+.hidden-container {
+  display: none;
 }
 
 .bottom-right img{
   width: 10rem;
   height: 3.5rem;
+  padding-top: 3rem;
 }
 
 .bottom-right p{
@@ -175,6 +176,7 @@ div.main-container {
 .bottom-left img{
   width: 10rem;
   height: 3rem;
+  padding-top: 3rem;
 }
 
 .bottom-left p{
@@ -308,3 +310,116 @@ div.prices {
 div.overlay:first-of-type p {
   line-height: 1.5;
 }
+
+@media (max-width:325px) {
+
+  .image-holder2{
+    /*border: 2px solid yellow;*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../assets/images/djconcert.jpg');
+    background-size: cover;
+  }
+
+
+}
+
+ @media (min-width:620px) {
+  .hide {
+    display: none;
+  }
+
+  .image-holder2 {
+    background-size: cover;
+    background-position: bottom;
+    height: 25rem;
+  }
+
+  .hidden-container {
+    /*border: 2px solid blue;*/
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0;
+    padding: 0;
+
+  }
+
+  .jacku-img img {
+    width: 15rem;
+    margin-top: 2rem;
+  }
+
+  .feature-headings {
+    color: white;
+    font-family: 'sura',serif;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .feature-number-address {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin: .5rem;
+  }
+
+  .featured-holder1, .featured-holder2 {
+    justify-content: space-around;
+    margin-bottom: 10rem;
+  }
+
+ }
+
+ @media (min-width:850px) {
+   .upper-right img {
+     width: 10rem;
+     height: 5rem;
+     margin-top: 2rem;
+   }
+   .upper-left img {
+     width: 10rem;
+     height: 5rem;
+     margin-top: 1rem;
+   }
+
+   .bottom-right img {
+     width: 10rem;
+     height: 5rem;
+   }
+   .bottom-left img {
+     width: 10rem;
+     height: 5rem;
+     margin-top: 1rem;
+   }
+
+   .jacku-img img {
+     width: 15rem;
+   }
+
+    .acts-headings {
+    margin-top: 4rem;
+}
+
+   .feature-headings {
+     color: white;
+     font-size: 22px;
+     margin: 0;
+     line-height: 2rem;
+   }
+
+   .feature-number-address {
+     color: white;
+     text-align: center;
+     font-size: 18px;
+   }
+
+
+
+ }
