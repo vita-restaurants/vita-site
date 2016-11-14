@@ -309,7 +309,7 @@ div.overlay:first-of-type p {
   line-height: 1.5;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 620px) {
   .section-dividers {
     font-size: 36px;
     height: 150px;
