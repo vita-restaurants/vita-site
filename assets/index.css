@@ -338,4 +338,26 @@ div.overlay:first-of-type p {
     padding-top: 90px;
   }
 
+  div.food-image {
+    flex-direction: row;
+  }
+
+  h4.title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  div.menu-box {
+    width: 30%;
+    padding-bottom: 1rem;
+  }
+
+  div.items, div.prices {
+    line-height: 5rem;
+  }
+
+  div.menu {
+    justify-content: space-around;
+  }
+
 }
