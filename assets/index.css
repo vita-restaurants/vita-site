@@ -5,6 +5,10 @@ html,body{
   -webkit-font-smoothing: antialiased;
 }
 
+a[href^="tel:"] {
+  color: white;
+}
+
 /* Begin the nav/header section mobile */
 
 header {
@@ -55,7 +59,6 @@ nav {
   justify-content: space-around;
   align-items: center;
   width: 75%;
-  font-weight: bolder;
 }
 
 nav > a {
@@ -68,6 +71,7 @@ nav > a {
 }
 
 nav a:hover {
+  font-weight: bolder;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #EA0E41, 0 0 70px #EA0E41, 0 0 80px #EA0E41, 0 0 100px #EA0E41, 0 0 150px #EA0E41;
 }
 
@@ -386,11 +390,17 @@ iframe.calendar {
     margin: 0;
   }
 
+  .acts-headings {
+    margin-bottom: 1rem;
+  }
+
   .feature-number-address {
     color: white;
     text-align: center;
-    font-size: 12px;
-    margin: .5rem;
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Sura', serif;
+    line-height: 1.2
   }
 
   .featured-holder1, .featured-holder2 {
@@ -432,6 +442,7 @@ iframe.calendar {
 
     .acts-headings {
     margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
    .feature-headings {
