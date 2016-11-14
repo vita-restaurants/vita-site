@@ -310,6 +310,19 @@ div.overlay:first-of-type p {
   line-height: 1.5;
 }
 
+div.calendar-holder {
+  background-image: url('../assets/images/djconcert.jpg');
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0 4rem 0;
+}
+
+iframe.calendar {
+  width: 100%;
+}
+
 @media (max-width:325px) {
 
   .image-holder2{
@@ -372,6 +385,10 @@ div.overlay:first-of-type p {
   .featured-holder1, .featured-holder2 {
     justify-content: space-around;
     margin-bottom: 10rem;
+  }
+
+  iframe.calendar {
+    width: 90%
   }
 
  }
