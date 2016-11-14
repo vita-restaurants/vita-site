@@ -75,6 +75,11 @@ nav a:hover {
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #EA0E41, 0 0 70px #EA0E41, 0 0 80px #EA0E41, 0 0 100px #EA0E41, 0 0 150px #EA0E41;
 }
 
+nav a:focus {
+  font-weight: bolder;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #EA0E41, 0 0 70px #EA0E41, 0 0 80px #EA0E41, 0 0 100px #EA0E41, 0 0 150px #EA0E41;
+}
+
 
 div.main-container {
   padding-top: 200px;
