@@ -2,6 +2,11 @@ html,body{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+a[href^="tel:"] {
+  color: white;
 }
 
 /* Begin the nav/header section mobile */
@@ -62,6 +67,12 @@ nav > a {
   font-family: 'Sura', serif;
   font-size: 18px;
   text-decoration: none;
+  transition: text-shadow .3s ease, transform 2s ease;
+}
+
+nav a:hover {
+  font-weight: bolder;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #EA0E41, 0 0 70px #EA0E41, 0 0 80px #EA0E41, 0 0 100px #EA0E41, 0 0 150px #EA0E41;
 }
 
 
@@ -220,6 +231,10 @@ li.bottom-left, li.bottom-right {
   margin-bottom: 10px;
 }
 
+ a.no-dec {
+  text-decoration: none;
+}
+
 a.anchor {
   display: block;
   position: relative;
@@ -375,11 +390,17 @@ iframe.calendar {
     margin: 0;
   }
 
+  .acts-headings {
+    margin-bottom: 1rem;
+  }
+
   .feature-number-address {
     color: white;
     text-align: center;
-    font-size: 12px;
-    margin: .5rem;
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Sura', serif;
+    line-height: 1.2
   }
 
   .featured-holder1, .featured-holder2 {
@@ -421,6 +442,7 @@ iframe.calendar {
 
     .acts-headings {
     margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
    .feature-headings {
@@ -442,9 +464,9 @@ iframe.calendar {
 @media (min-width: 620px) {
   .section-dividers {
     font-size: 36px;
-    height: 150px;
-    color: black;
-    background-color: #F2F2F2;
+    height: 70px;
+    color: white;
+    background-color: #1D2129;
     font-family: 'Ruslan Display', cursive;
   }
 
