@@ -2,6 +2,7 @@ html,body{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* Begin the nav/header section mobile */
@@ -54,6 +55,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   width: 75%;
+  font-weight: bolder;
 }
 
 nav > a {
@@ -62,6 +64,11 @@ nav > a {
   font-family: 'Sura', serif;
   font-size: 18px;
   text-decoration: none;
+  transition: text-shadow .3s ease, transform 2s ease;
+}
+
+nav a:hover {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #EA0E41, 0 0 70px #EA0E41, 0 0 80px #EA0E41, 0 0 100px #EA0E41, 0 0 150px #EA0E41;
 }
 
 
@@ -218,6 +225,10 @@ li.upper-left, li.upper-right {
 
 li.bottom-left, li.bottom-right {
   margin-bottom: 10px;
+}
+
+ a.no-dec {
+  text-decoration: none;
 }
 
 a.anchor {
@@ -442,9 +453,9 @@ iframe.calendar {
 @media (min-width: 620px) {
   .section-dividers {
     font-size: 36px;
-    height: 150px;
-    color: black;
-    background-color: #F2F2F2;
+    height: 70px;
+    color: white;
+    background-color: #1D2129;
     font-family: 'Ruslan Display', cursive;
   }
 
