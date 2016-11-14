@@ -71,20 +71,20 @@ div.main-container {
 
 /* The section dividers mobile */
 
-.section-dividers{
+.section-dividers {
   display: flex;
   align-items: center;
   font-size: 24px;
   height: 35px;
   color: white;
   background-color: #1D2129;
-  font-family: sura, serif;
+  font-family: 'Sura', serif;
   justify-content: center;
 }
 
 /* Begin The Club section mobile */
 
-.image-holder1{
+.image-holder1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -93,7 +93,7 @@ div.main-container {
   background-size: cover;
 }
 
-.phone-address-mobile-holder{
+.phone-address-mobile-holder {
   display: flex;
   justify-content: center;
   width: 20rem;
@@ -101,7 +101,7 @@ div.main-container {
   margin-left: 5rem;
 }
 
-.phone-address-mobile-text1{
+.phone-address-mobile-text1 {
   text-align: center;
   color: white;
   font-size: 18px;
@@ -110,7 +110,7 @@ div.main-container {
   display: inline-block;
   margin-top: 15px;
 }
-.phone-address-mobile-text2{
+.phone-address-mobile-text2 {
   text-align: center;
   color: white;
   font-size: 18px;
@@ -122,7 +122,7 @@ div.main-container {
 
 /* Begin Featured Acts mobile section */
 
-.image-holder2{
+.image-holder2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -131,7 +131,7 @@ div.main-container {
   background-size: cover;
 }
 
-.featured-holder1{
+.featured-holder1 {
   /*border: 2px solid red;*/
   display: flex;
   flex-wrap: wrap;
@@ -146,7 +146,7 @@ div.main-container {
 
 }
 
-.featured-holder2{
+.featured-holder2 {
   /*border: 2px solid green;*/
   display: flex;
   flex-wrap: wrap;
@@ -159,12 +159,12 @@ div.main-container {
   padding: 0;
 }
 
-.bottom-right img{
+.bottom-right img {
   width: 10rem;
   height: 3.5rem;
 }
 
-.bottom-right p{
+.bottom-right p {
   color: white;
   font-family: 'sura';
   text-align: center;
@@ -172,12 +172,12 @@ div.main-container {
   background-color: black;
 }
 
-.bottom-left img{
+.bottom-left img {
   width: 10rem;
   height: 3rem;
 }
 
-.bottom-left p{
+.bottom-left p {
   color: white;
   font-family: 'sura';
   text-align: center;
@@ -185,12 +185,12 @@ div.main-container {
   background-color: black;
 }
 
-.upper-right img{
+.upper-right img {
   width: 10rem;
   height: 3rem;
 }
 
-.upper-right p{
+.upper-right p {
   color: white;
   font-family: 'sura';
   text-align: center;
@@ -198,12 +198,12 @@ div.main-container {
   background-color: black;
 }
 
-.upper-left img{
+.upper-left img {
   width: 10rem;
   height: 3rem;
 }
 
-.upper-left p{
+.upper-left p {
   color: white;
   font-family: 'sura';
   text-align: center;
@@ -307,4 +307,35 @@ div.prices {
 
 div.overlay:first-of-type p {
   line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .section-dividers {
+    font-size: 36px;
+    height: 150px;
+    color: black;
+    background-color: #F2F2F2;
+    font-family: 'Ruslan Display', cursive;
+  }
+
+  header {
+    justify-content: space-between;
+    background-position: bottom;
+  }
+
+  header.landing {
+    display: none
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+  }
+
+  div.main-container {
+    padding-top: 90px;
+  }
+
 }
